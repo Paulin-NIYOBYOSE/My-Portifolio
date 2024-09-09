@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '',
   title: 'PAULIN',
 }
 
@@ -9,54 +9,52 @@ const about = {
   name: 'NIYOBYOSE Paulin',
   role: 'Fullstack developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "I'm NIYOBYOSE Paulin, a full-stack developer passionate about creating user-friendly and efficient web applications. I specialize in both front-end and back-end development using technologies like React, Next.js, Node.js, and Python . Explore my projects to see my work, and feel free to reach out for collaboration!",
+  resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/niyobyose-paulin-5a8497304/',
+    github: 'https://github.com/Paulin-NIYOBYOSE',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'IS TECHNOLOGY LTD',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An online e-commerce website for selling electronic products',
+    stack: ['React.js', 'Tailwind', 'Redux'],
+    sourceCode: 'https://github.com/Paulin-NIYOBYOSE/Is-Tech',
+    livePreview: 'https://is-tech-eta.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'CINEFLIX',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A next generation netflix clone with additional feautures',
+    stack: ['React.js', 'Tailwind css', ,],
+    sourceCode: 'https://github.com/Paulin-NIYOBYOSE/Cineflix',
+    livePreview: 'https://github.com/Paulin-NIYOBYOSE/Cineflix',
   },
   {
-    name: 'Project 3',
+    name: 'FXMA',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An online platform for forex trading mentorship with super features such as real time classes',
+    stack: ['Next.js', 'Python', 'Typescript', 'MQL5'],
+    sourceCode: 'https://github.com/Paulin-NIYOBYOSE/FOREX-MINERS-ACADEMY',
+    livePreview: 'https://github.com/Paulin-NIYOBYOSE/FOREX-MINERS-ACADEMY',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Python',
+  'MQL5',
+  'Next.js',
   'JavaScript',
   'TypeScript',
   'React',
   'Redux',
   'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
   'Jest',
@@ -65,7 +63,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'niyobyosepaulin20@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
